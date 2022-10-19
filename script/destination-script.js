@@ -14,14 +14,14 @@ var planet1 = new Planet("See our planet as you’ve never seen it before. A per
                          "MOON",
                          "384,400 km",
                          "3 days",
-                         "../assets/destination/image-moon.png");
+                         "/assets/destination/image-moon.png");
 var planet2 = new Planet("Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, " + 
                          "the tallest planetary mountain in our solar system. It’s two and a half times " +
                          "the size of Everest!",
                          "MARS",
                          "225 mil. km",
                          "9 months",
-                         "../assets/destination/image-mars.png"
+                         "/assets/destination/image-mars.png"
                          );
 var planet3 = new Planet("The smallest of the four Galilean moons orbiting Jupiter, " +
                          "Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of " +
@@ -30,7 +30,7 @@ var planet3 = new Planet("The smallest of the four Galilean moons orbiting Jupit
                          "europa",
                          "628 mil. km",
                          "3 years",
-                         "../assets/destination/image-europa.png"
+                         "/assets/destination/image-europa.png"
                          );
 var planet4 = new Planet("The only moon known to have a dense atmosphere other than Earth, Titan" + 
                          "is a home away from home (just a few hundred degrees colder!). As a " +
@@ -38,7 +38,7 @@ var planet4 = new Planet("The only moon known to have a dense atmosphere other t
                          "tıtan",
                          "1.6 bil. km",
                          "7 years",
-                         "../assets/destination/image-titan.png"
+                         "/assets/destination/image-titan.png"
                          );
 
 const moonPage = document.getElementById("moon-btn");
